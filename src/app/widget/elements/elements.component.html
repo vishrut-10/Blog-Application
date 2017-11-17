@@ -1,0 +1,14 @@
+<div class = "collection">
+  <a *ngFor="let widget of widgets " id="outerCollection">
+
+    <a *ngIf="widget.postedby=='vishrut'" class="collection-item">
+    <div class="collection" id="innerCollection">
+    <a style="font-size: large; color: black">Title:  {{widget.name}} </a><br>
+
+    <button class = "right"(click)="deleteElement(widget)" style="margin-right: 5px"><i class="material-icons">delete</i></button>
+    <button class = "right"(click)="updateElement(widget)"><i class="material-icons">update</i></button>
+    <br>
+    <p style="color: black">
+      {{widget.desc}}</p></div>
+  </a></a>
+</div>

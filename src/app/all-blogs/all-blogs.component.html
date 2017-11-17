@@ -1,0 +1,13 @@
+<div class = "collection">
+  <a *ngFor="let blog of blogs1 " class="collection-item">
+      <div class="collection" id="innerCollection">
+        <a style="font-size: large; color: black">title:  {{blog.name}} </a>
+        <a style="font-style: italic">posted by: {{blog.postedby}}</a><br>
+        <a *ngIf="blog.favourite == false">
+        <button class = "right"(click)="markAsFavourite(blog)" style="margin-right: 5px"><i class="material-icons">Mark As Favourite</i></button>
+        </a>
+        <br>
+        <p style="color: black">
+          {{blog.desc}}</p></div>
+    </a>
+</div>

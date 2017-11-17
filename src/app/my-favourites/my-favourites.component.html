@@ -1,0 +1,13 @@
+<div class = "collection">
+  <a *ngFor="let blog of blogs1 " >
+
+    <a *ngIf="blog.favourite==true" class="collection-item">
+      <div class = "collection" id="innerCollection">
+      <a style="font-size: large; color: black">title:  {{blog.name}} </a>
+      <a style="font-style: italic">posted by: {{blog.postedby}}</a><br>
+      <br>
+      <p style="color: black">
+        {{blog.desc}}</p></div>
+    </a></a>
+</div>
+

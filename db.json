@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "Fifa WorldCup",
+      "desc": "Italy didn't Qualified for the world cup",
+      "postedby": "vishrut",
+      "favourite": true,
+      "category": "Sports",
+      "id": 1
+    },
+    {
+      "name": "Breaking News",
+      "desc": "Today's weather forecast is awesome..!!!!",
+      "postedby": "amar",
+      "favourite": false,
+      "category": "Others",
+      "id": 2
+    },
+    {
+      "name": "GoogleDocs",
+      "desc": "To create edit and delete documents online at a particular platform.",
+      "postedby": "amar",
+      "favourite": true,
+      "category": "Technology",
+      "id": 3
+    },
+    {
+      "name": "Messiah",
+      "desc": "Messi is the god",
+      "postedby": "dulton",
+      "favourite": false,
+      "category": "Sports",
+      "id": 4
+    },
+    {
+      "name": "German Revolution",
+      "desc": "Hitler was the main reason for germany's conspiracy to kill Jews.",
+      "postedby": "dulton",
+      "favourite": false,
+      "category": "Others",
+      "id": 5
+    },
+    {
+      "name": "Petrol Price",
+      "desc": "70 rs/liter",
+      "postedby": "vishrut",
+      "favourite": false,
+      "category": "Business",
+      "id": 6
+    }
+  ]
+}
