@@ -16,3 +16,7 @@ Download the file and install all the dependencies by the command `npm install`
 
 1. Type the command `npm start` in console.
 2. Open the browser and type the url `localhost:4200`
+
+# Live Link
+
+https://pensive-goodall-8d5311.netlify.com/
